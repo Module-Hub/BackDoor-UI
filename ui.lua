@@ -1,22 +1,9 @@
---[=[
- d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
-88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
-88      88    88    88            odD'      88      88    88 88ooo88 
-88  ooo 88    88    88          .88'        88      88    88 88~~~88 
-88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
- Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
-]=]
-
--- Instances: 149 | Scripts: 15 | Modules: 14
 local G2L = {};
 
--- StarterGui.backdoor.exe v8
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["ResetOnSpawn"] = false;
 G2L["1"]["Name"] = [[backdoor.exe v8]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
-
--- StarterGui.backdoor.exe v8.Main
 G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["ZIndex"] = -1;
 G2L["2"]["BorderSizePixel"] = 0;
@@ -26,7 +13,6 @@ G2L["2"]["ClipsDescendants"] = true;
 G2L["2"]["Position"] = UDim2.new(0.20000000298023224, 0, 0.10000000149011612, 0);
 G2L["2"]["Name"] = [[Main]];
 
--- StarterGui.backdoor.exe v8.Main.Topbar
 G2L["3"] = Instance.new("ImageLabel", G2L["2"]);
 G2L["3"]["SliceCenter"] = Rect.new(100, 100, 100, 100);
 G2L["3"]["ScaleType"] = Enum.ScaleType.Slice;
@@ -38,7 +24,6 @@ G2L["3"]["Size"] = UDim2.new(1, 0, 0, 29);
 G2L["3"]["Name"] = [[Topbar]];
 G2L["3"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Topbar.RightOutline
 G2L["4"] = Instance.new("Frame", G2L["3"]);
 G2L["4"]["ZIndex"] = 3;
 G2L["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
