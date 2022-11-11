@@ -1,5 +1,6 @@
 
---// GLOBALS \\-local TweenService = game:GetService('TweenService');
+--// GLOBALS \\--
+local TweenService = game:GetService('TweenService');
 
 --// CONST \\--
 local RightDistance = 6;
